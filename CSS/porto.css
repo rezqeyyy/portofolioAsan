@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+h1 {
+    font-family: "Roboto Mono", monospace;
+}
+
+ul {
+    font-family: "Roboto Mono", monospace;
+}
+
+p {
+    font-family: "Roboto Mono", monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nap {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    padding: 10px 0;
+    margin: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0px;
+    z-index: 999;
+    align-items: center;
+    display: center;
+    justify-content: center;
+}
+
+.nap ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nap ul li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.head {
+    background-color: aliceblue;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.head h1 {
+    position: center;
+    margin: 0;
+    text-align: center;
+}
+
+#pembuka img {
+    float: left;
+    margin-right: 80px;
+    width: 20%;
+    display: block;
+    padding-bottom: 100px;
+    align-items: center;
+    padding-top: 60px;
+}
+
+#pembuka {
+    background-color: fff;
+    padding-bottom: 260px;
+}
+
+#pembuka h1 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+#pendidikan {
+    background-color: aliceblue;
+    position: relative;
+    padding: 50px;
+    text-align: left;
+    padding-top: 80px;
+}
+
+#pendidikan h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#keahlian {
+    background-color: white;
+    position: relative;
+    text-align: left;
+    padding: 50px;
+}
+
+#keahlian h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#keahlian ul {
+    padding-bottom: 50px;
+}
+
+#pengalaman {
+    background-color: aliceblue;
+    position: relative;
+    text-align: left;
+    padding: 50px;
+}
+
+#pengalaman h1 {
+    text-align: center;
+}
+
+#kontak {
+    background-color: white;
+    position: relative;
+    text-align: left;
+    padding: 50px;
+}
+
+#kontak h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: aliceblue;
+    text-align: center;
+    position: relative;
+    padding-top: 5px;
+}
